@@ -20,10 +20,7 @@ export default class StageList extends Component {
 
 const styles = StyleSheet.create({
     list: {
-        marginTop:20,
+        marginTop: 20,
         marginBottom: 40,
-        borderColor: '#cfcfcf',
-        borderWidth: 1,
-        borderStyle: 'solid',
     }
 })

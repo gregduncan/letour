@@ -13,7 +13,7 @@ class Stages extends Component {
 
     render() {
         return (
-           <StageList items={this.props.stages} />
+            <StageList items={this.props.stages} />
         )
     }
 }

@@ -9,14 +9,15 @@ const { width, height } = Dimensions.get("window")
 export default class Stage extends Component {
 
     render() {
+        const { item } = this.props
+
         return (
-            <TouchableOpacity style={styles.widget} activeOpacity={.5} onPress={() => Actions.stage({ id: "Stage 1", title: "Stage 1"})}>
+            <TouchableOpacity style={styles.widget} activeOpacity={.5} onPress={() => Actions.stage({ id: item.stage, title: `Stage ${item.stage}` })}>
                 <View style={styles.stage}>
                     <View style={styles.containerTop}>
-                        <Text>Greg</Text>
-                    </View>
-                    <View style={styles.containerBottom}>
-                       
+                        <Text style={styles.textTop}>{item.date}</Text>
+                        <Text style={styles.textTitle}>Stage {item.stage}</Text>
+                        <Text style={styles.textBottom}>{item.start} <Icon name="caret-right" size={12} color="#262626" /> {item.finish}</Text>
                     </View>
                 </View>
             </TouchableOpacity>
@@ -26,44 +27,31 @@ export default class Stage extends Component {
 
 const styles = StyleSheet.create({
     widget: {
-        marginBottom: 10,
+        marginBottom: 0,
         marginHorizontal: 10,
     },
     stage: {
-        backgroundColor: '#fafafa',
-        borderColor: '#cfcfcf',
-        borderWidth: 1,
+        backgroundColor: '#fff',
+        borderColor: '#ddd',
+        borderBottomWidth: 1,
         borderStyle: 'solid',
-    },
-    containerBottom: {
-        borderColor: '#cfcfcf',
-        borderTopWidth: 1,
-        borderStyle: 'solid',
+        marginTop:10,
+        paddingBottom:10
     },
     containerTop: {
         marginHorizontal: 10
     },
-    textProd:{
-        color:'#005387',
-        marginTop:10,
-        marginBottom:5,
-        fontSize:11
+    textTop: {
+        color: '#aaa',
+        marginBottom: 5,
+        fontSize: 11
     },
-    textTitle:{
-        color:'#888',
-        marginBottom:5,
-        fontSize:22
+    textTitle: {
+        marginBottom: 5,
+        fontSize: 16
     },
-    textDisplay:{
-        color:'#333',
-        fontSize:16
-    },
-    textLabel:{
-        color:'#888',
-        marginBottom:5,
-        fontSize:11
-    },
-    icon:{
-        marginTop:5
+    textBottom: {
+        color: '#333',
+        fontSize: 13
     }
 })

@@ -14,7 +14,7 @@ export const TabIcon = ({ selected, title }) => {
             name = "cog"
             break
         case "feed":
-            name = "tasks"
+            name = "newspaper-o"
             break
         case "calendar":
             name = "calendar"

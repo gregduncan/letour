@@ -28,7 +28,7 @@ export default class Root extends Component {
                                 <Scene key="calendar" component={Calendar} title="Calendar" />
                             </Scene>
                             <Scene key="news" icon={TabIcon} title="FEED">
-                                <Scene key="feed" component={Feed} title="Activity" />
+                                <Scene key="feed" component={Feed} title="Latest News" />
                             </Scene>
                             <Scene key="settings" icon={TabIcon} title="OPTIONS">
                                 <Scene key="help" component={Settings} title="Options" />
