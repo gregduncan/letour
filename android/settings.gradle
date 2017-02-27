@@ -1,0 +1,3 @@
+rootProject.name = 'letour'
+
+include ':app'

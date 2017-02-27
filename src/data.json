@@ -1,0 +1,193 @@
+{
+    "2017":[
+        {
+            "stage" : 1,
+            "type" : "Individual time trial",
+            "date" : "Saturday, July 1st",
+            "start" : "Düsseldorf",
+            "finish" : "Düsseldorf",
+            "distance" : 14,
+            "desciption" : "Of the 13 kilometres of the inaugural time-trial course, close to 10 will be set on the banks of the Rhine river or the bridges above it… and bends can be counted on the fingers of both hands! There will be no or almost no mystery: the “rouleurs” will have their word to say. In this speciality where a new generation is showing up, a multiple world-champion boosted by the support of his fans could well be the fastest man."
+        },
+        {
+            "stage" : 2,
+            "type" : "flat",
+            "date" : "Sunday, July 2nd",
+            "start" : "Düsseldorf",
+            "finish" : "Liège",
+            "distance" : 206,
+            "desciption" : "Most of the stage will take place in Germany. During the last visits to Liège during the 21st century, the riders battled it out on time-trials while those who normally shine on Liège-Bastogne-Liège are among the best punchers of the moment. This time, a sprint victory is to be expected on the boulevard de la Sauvenière."
+        },
+        {
+            "stage" : 3,
+            "type" : "hilly",
+            "date" : "Monday, July 3rd",
+            "start" : "Verviers",
+            "finish" : "Longwy",
+            "distance" : 202,
+            "desciption" : "A coincidence or destiny, the Tour will take off from Verviers just two days before the 35th birthday of the city's native, Philippe Gilbert. And the day's course could well inspire the Wallonian. Indeed the climb going up to the Longwy Citadel looks a lot like the Mont des Alouettes where he had conquered his only stage win on the Tour in 2011. Whatever the outcome, the punchers will be on attacking soil, and the Yellow Jersey will be up for grabs."
+        },
+        {
+            "stage" : 4,
+            "type" : "flat",
+            "date" : "Tuesday, July 4th",
+            "start" : "Mondorf-les-Bains",
+            "finish" : "Vittel",
+            "distance" : 203,
+            "desciption" : "Passing through Schengen and before returning to French territory, the peloton will have confirmation it can go around freely… Without major difficulties, this stage should offer a second opportunity to the sprinters. Beware however, the roads of Meurthe-et-Moselle could be swept by the wind and that could represent a menace for the title contenders."
+        },
+        {
+            "stage" : 5,
+            "type" : "mountain",
+            "date" : "Wednesday, July 5th",
+            "start" : "Vittel",
+            "finish" : "La planche des belles filles",
+            "distance" : 160,
+            "desciption" : "It only took two stage finishes there for La Planche des Belles Filles to add its name to the history of the Tour. The climb is rather short however it's extremely demanding, especially on the final part. The gradients indeed reach 20%. It'll be a first explanation between the favourites."
+        },
+        {
+            "stage" : 6,
+            "type" : "flat",
+            "date" : "Thursday, July 6th",
+            "start" : "Vesoul",
+            "finish" : "Troyes",
+            "distance" : 216,
+            "desciption" : "The sprint purists will have dissected and appreciated the possible scenario dictated on this flat stage by the teams of the best specialists. Riding through the Plateau de Langres, and passing through Colombeyles-Deux-Églises, the chase of the escapees should be perfectly planned. It'll then be the turn of the lead out trains to take command on the large avenues of the centre of Troyes."
+        },
+        {
+            "stage" : 7,
+            "type" : "flat",
+            "date" : "Friday, July 7th",
+            "start" : "Troyes",
+            "finish" : "Nuits-Saint-Georges",
+            "distance" : 214,
+            "desciption" : "The globally flat course seems perfectly suited for a revenge between the sprinters, frustrated by the outcome of the previous day. However the final loop of 40 kilometres will see the peloton battle it out in the sidewind and some teams will certainly make the best of it. The Burgundy vineyard homelands are indeed registered on the World Heritage of Humanity sites."
+        },
+        {
+            "stage" : 8,
+            "type" : "mountain",
+            "date" : "Saturday, July 8th",
+            "start" : "Dole",
+            "finish" : "Station des rousses",
+            "distance" : 187,
+            "desciption" : "“Made in Jura”, that's how this stage could be qualified as it will take place entirely in that area. On this part of the Jura mountain range, the climbs will offer a good opportunity to breakaway riders at their best. Last of the three climbs on the menu, the Côte de la Combe de Laisia Les Molunes, and its summit just 11kms from the finish, will be a perfect scene for the best of them to make a difference."
+        },
+        {
+            "stage" : 9,
+            "type" : "mountain",
+            "date" : "Sunday, July 9th",
+            "start" : "Nantua",
+            "finish" : "Chambéry",
+            "distance" : 181,
+            "desciption" : "Even in the Alps and the Pyrenees, climbs with average gradients of close to 10% on their entire length are pretty rare. There will be three on this Jura stage with a total ascending elevation of 4600 metres. The riders will first discover the climb up the Col de la Biche, followed by the unprecedented and fearsome side of the Grand Colombier, known as the Directissime (gradients up to 22%), and will finish the battle off with the Mont du Chat, not on the Tour map since 1974. It'll be a real..."
+        },
+        {
+            "stage" : 10,
+            "type" : "flat",
+            "date" : "Tuesday, July 11th",
+            "start" : "Périgueux",
+            "finish" : "Bergerac",
+            "distance" : 178,
+            "desciption" : "After a rest day in Dordogne, the debates resume in a romantic and peaceful atmosphere. But the challenge of winning a stage will stop the possible inclination to take it easy, notably when the pack moves closer to the Lascaux Grotto which will have its entire replica drawings available to see as of next December. Whether they're enthusiasts of cave arts or not, the riders will be mainly focused on the sprint to take on, (or avoid, depending on the actors) in Bergerac."
+        },
+        {
+            "stage" : 11,
+            "type" : "hilly",
+            "date" : "Wednesday, July 12th",
+            "start" : "Eymet",
+            "finish" : "Pau",
+            "distance" : 202,
+            "desciption" : "The Tour gets closer to its Pyrenean base but mountain specialists will still be preserving their energy. Going through the areas of Les Landes and Gers, the command of the pack will probably be left to the teams of sprinters. The escapees having made the effort to take off will, why not, have the opportunity to make a prayer at the Notre-Dame-des-Cyclistes Chapel, situated in Labastide-d'Armagnac."
+        },
+        {
+            "stage" : 12,
+            "type" : "mountain",
+            "date" : "Thursday, July 13th",
+            "start" : "Pau",
+            "finish" : "Peyragudes",
+            "distance" : 214,
+            "desciption" : "The longest stage of the Pyrenean stay will be made of an extremely difficult sequence of climbs. As kilometres are covered, it'll only get harder with the climb up to the Col de Menté, even more selective with the Port de Balès and will become a real agony for the legs in the new final climb to Peyragudes. In the final kilometre, on the runway of the only airport of the Pyrenees, will be a passage at 16% over a distance of 200 metres."
+        },
+        {
+            "stage" : 13,
+            "type" : "mountain",
+            "date" : "Friday, July 14th",
+            "start" : "Saint-Girons",
+            "finish" : "Foix",
+            "distance" : 100,
+            "desciption" : "Precisely 100. In terms of kilometres, never has such a short format been on the menu of the Tour since halfstages disappeared. It'll be a total contrast compared to what the riders witnessed on the previous day but the terrain will be just as favourable for, I hope, audacious initiatives. Dynamism linked to distance will be joined by a degree of difficulty in the climbs: the Col de Latrape followed by the Col d'Agnes and finally the Mur de Péguère and its gradients that can reach 18%."
+        },
+        {
+            "stage" : 14,
+            "type" : "hilly",
+            "date" : "Saturday, July 15th",
+            "start" : "Blagnac",
+            "finish" : "Rodez",
+            "distance" : 181,
+            "desciption" : "The countryside of the south-west, whether it's in Tarn or Aveyron offers outstanding viewpoints. Sweet to the eyes are the aerial shots of the countless little valleys that are however tough on the legs of the riders on solid ground. The stage will be demanding. In these conditions, the Côte Saint-Pierre will offer a splendid launch pad to a puncher."
+        },
+        {
+            "stage" : 15,
+            "type" : "mountain",
+            "date" : "Sunday, July 16th",
+            "start" : "Laissac-Sévérac l'Église",
+            "finish" : "Le Puy-en-Velay",
+            "distance" : 189,
+            "desciption" : "Hard to tell in what state or shape the peloton will be at the end of this stage. It won't be mountains but the journey through the Aubrac Plateau will be covered at an altitude of over 1000 metres during around fifty kilometres. Further away, the climb up to the Col de Peyra Taillade has gradients of 14% at some places. And that could certainly offer surprises when comes the time for a verdict in Le Puy-en-Velay."
+        },
+        {
+            "stage" : 16,
+            "type" : "flat",
+            "date" : "Tuesday, July 18th",
+            "start" : "Le Puy-en-Velay",
+            "finish" : "Romans-sur-Isère",
+            "distance" : 165,
+            "desciption" : "The roads of the day are perfectly known by the amateur riders of the Ardéchoise cyclosportive, with a topography that could give confidence to breakaway riders. But finishes in the Rhône Valley often end up with bunched sprints… unless the wind plays a role."
+        },
+        {
+            "stage" : 17,
+            "type" : "mountain",
+            "date" : "Wednesday, July 19th",
+            "start" : "La Mure",
+            "finish" : "Serre-Chevalier",
+            "distance" : 183,
+            "desciption" : "Climbers battling it out for the Yellow Jersey will have two more days to express themselves, to change the outcome or comfort a decent lead and gain precious time. Heading towards Serre-Chevalier, we will give them the most prestigious of what the Alps has to offer: the Col de la Croix de Fer and then the Galibier back after a 6-year absence, going up the Télégraphe. It's now up to them."
+        },
+        {
+            "stage" : 18,
+            "type" : "mountain",
+            "date" : "Thursday, July 20th",
+            "start" : "Briançon",
+            "finish" : "Izoard",
+            "distance" : 178,
+            "desciption" : "It'll be the final battle between the climbers at the heart of one of the most spectacular and surprising sports theaters there is to offer. A real inspiration for attackers with temperament. From Barcelonnette to the Col de Vars, spirits and legs will be on fire. The last ten kilomeres before the summit of the Izoard are at an average gradient of 9%. The “rendez-vous” of the Casse Déserte will add solemnity to the hardness of percents."
+        },
+        {
+            "stage" : 19,
+            "type" : "mountain",
+            "date" : "Friday, July 21st",
+            "start" : "Embrun",
+            "finish" : "Salon-de-Provence",
+            "distance" : 220,
+            "desciption" : "Beware not to be gently rocked by the relaxed atmosphere of the villages of Provence, the lavender fields and the olive trees of Lubéron. It'll be the longest stage of the Tour and will start by a hilly portion, tough on the legs. It'll be a final opportunity for escapees to witness glory. Just as long as they manage to stay clear of the hungry pack all the way to the finish line."
+        },
+        {
+            "stage" : 20,
+            "type" : "Individual time trial",
+            "date" : "Saturday, July 22nd",
+            "start" : "Marseille",
+            "finish" : "Marseille",
+            "distance" : 23,
+            "desciption" : "For the very first time, Marseille will welcome an individual time-trial. A final opportunity to witness a change in the hierarchy and why not see the Yellow Jersey switch shoulders. Set entirely on urban roads with a passage on the Corniche and by the Vieux-Port (old harbour), the course will be rather flat except for a climb up to the Notre-Dame-de-la-Garde cathedral. The start and finish will take place inside the legendary Vélodrome football stadium, recently re-named Orange..."
+        },
+        {
+            "stage" : 21,
+            "type" : "flat",
+            "date" : "Sunday, July 23rd",
+            "start" : "Montgeron",
+            "finish" : "Paris Champs-Élysées",
+            "distance" : 105,
+            "desciption" : "It'll be time for facts and figures. First of all time to check the number of riders who will enter the world of Giants of the road. Time to count the seconds or minutes separating the best on the final podium. But the finish on the Champs-Élysées is also a territory for sprinters. The British and the Germans have reigned there without sharing these last few years. Will they finally meet a worthy enough rival?"
+        }
+    ]
+}
