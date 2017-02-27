@@ -11,7 +11,6 @@ import Password from "../containers/Password"
 import Feed from "../containers/Feed"
 import Calendar from "../containers/Calendar"
 import { TabIcon } from "../components/icons/TabIcon"
-import * as types from "../constants/UserTypes"
 
 export default class Root extends Component {
 
