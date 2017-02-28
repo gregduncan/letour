@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import { View, Text, StyleSheet, ScrollView, ListView } from "react-native"
+import React, { Component, PropTypes } from "react"
+import { View, StyleSheet, ListView } from "react-native"
 
 import Stage from "./Stage"
 
@@ -16,6 +16,10 @@ export default class StageList extends Component {
             </View>
         )
     }
+}
+
+StageList.propTypes = {
+    items: PropTypes.array.isRequired
 }
 
 const styles = StyleSheet.create({

@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { Component, PropTypes } from "react"
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native"
 import { Actions } from "react-native-router-flux"
 import Icon from "react-native-vector-icons/FontAwesome"
@@ -46,12 +46,16 @@ export default class SettingsForm extends Component {
     }
 }
 
+SettingsForm.propTypes = {
+    logout: PropTypes.func.isRequired
+}
+
 const styles = StyleSheet.create({
     container: {
         backgroundColor: '#fafafa',
     },
     section: {
-        marginBottom:0,
+        marginBottom: 0,
         marginTop: 50
     },
     sectionHeading: {
@@ -59,7 +63,7 @@ const styles = StyleSheet.create({
         fontSize: 11,
         marginHorizontal: 10,
         marginTop: 50,
-        marginBottom:5
+        marginBottom: 5
     },
     list: {
         backgroundColor: '#fff',
@@ -71,10 +75,10 @@ const styles = StyleSheet.create({
         borderColor: '#eee',
         borderBottomWidth: 1,
         borderStyle: 'solid',
-    }, 
-    listItemText:{
-        color:'#333',
+    },
+    listItemText: {
+        color: '#333',
         marginHorizontal: 10,
-        marginVertical:10,
+        marginVertical: 10,
     }
 })

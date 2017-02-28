@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { Component, PropTypes } from "react"
 import { StyleSheet, Text, View, Image, TextInput, ActivityIndicator, TouchableOpacity } from "react-native"
 import { Actions } from "react-native-router-flux"
 
@@ -37,8 +37,8 @@ export default class LoginForm extends Component {
                                 style={styles.input}
                                 onChangeText={(username) => this.setState({ username })}
                                 value={this.state.username}
-                                underlineColorAndroid='transparent'
-                                autoCapitalize='none'
+                                underlineColorAndroid="transparent"
+                                autoCapitalize="none"
                             />
                         </View>
                         <View style={styles.formGroup}>
@@ -49,8 +49,8 @@ export default class LoginForm extends Component {
                                 secureTextEntry
                                 onChangeText={(password) => this.setState({ password })}
                                 value={this.state.password}
-                                underlineColorAndroid='transparent'
-                                autoCapitalize='none'
+                                underlineColorAndroid="transparent"
+                                autoCapitalize="none"
                             />
                         </View>
                         <View style={styles.btnGroup}>
@@ -64,13 +64,17 @@ export default class LoginForm extends Component {
                             <Text style={styles.textAlt} onPress={Actions.password}>Forgot password?</Text>
                         </View>
                         <View style={styles.row}>
-                            <ActivityIndicator animating={true} style={{ opacity : this.state.loading ? 1 : 0 }} size="large" />
+                            <ActivityIndicator animating={true} style={{ opacity: this.state.loading ? 1 : 0 }} size="large" />
                         </View>
                     </View>
                 </View>
             </LayoutBrand>
         )
     }
+}
+
+LoginForm.propTypes = {
+    onPress: PropTypes.func.isRequired
 }
 
 const styles = StyleSheet.create({
@@ -114,8 +118,8 @@ const styles = StyleSheet.create({
     row: {
         marginTop: 10,
     },
-    textAlt:{
-        color:'#262626',
-        fontSize:12,
+    textAlt: {
+        color: '#262626',
+        fontSize: 12,
     }
 })

@@ -6,7 +6,7 @@ class Feed extends Component {
 
     render() {
         return (
-           <Text>Feed</Text>
+            <Text>Feed</Text>
         )
     }
 }

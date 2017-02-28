@@ -7,5 +7,3 @@ export const login = (auth) => {
 export const logout = () => {
     return { type: types.LOGOUT_USER, payload: false }
 }
-
-

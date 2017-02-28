@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import { View, Text, StyleSheet, TouchableOpacity, Dimensions } from "react-native"
+import React, { Component, PropTypes } from "react"
+import { View, Text, StyleSheet } from "react-native"
 import changeCase from "change-case"
 import Icon from "react-native-vector-icons/FontAwesome"
 
@@ -25,11 +25,15 @@ export default class StageDetail extends Component {
     }
 }
 
+StageDetail.propTypes = {
+    item: PropTypes.object.isRequired
+}
+
 const styles = StyleSheet.create({
     detail: {
         marginHorizontal: 10,
-        marginTop:20,
-        height:400
+        marginTop: 20,
+        height: 400
     },
     textTitle: {
         marginBottom: 5,
@@ -42,12 +46,12 @@ const styles = StyleSheet.create({
     textPrimary: {
         marginBottom: 5,
         fontSize: 16,
-        color:'#fabb00'
+        color: '#fabb00'
     },
     textDefault: {
         marginBottom: 5,
         fontSize: 14,
-        color:'#aaa'
+        color: '#aaa'
     },
     text: {
         fontSize: 14

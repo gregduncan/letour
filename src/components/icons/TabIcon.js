@@ -5,19 +5,20 @@ import ChangeCase from "change-case"
 
 export const TabIcon = ({ selected, title }) => {
 
-    let name = ""
+    let name = ''
+    
     switch (ChangeCase.lowerCase(title)) {
-        case "home":
-            name = "home"
+        case 'home':
+            name = 'home'
             break
-        case "options":
-            name = "cog"
+        case 'options':
+            name = 'cog'
             break
-        case "feed":
-            name = "newspaper-o"
+        case 'feed':
+            name = 'newspaper-o'
             break
-        case "calendar":
-            name = "calendar"
+        case 'calendar':
+            name = 'calendar'
             break
     }
 

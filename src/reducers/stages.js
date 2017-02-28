@@ -24,7 +24,7 @@ export default function stages(state = initialState, action) {
                 fetching: false,
                 stages: action.payload
             }
-        }    
+        }
 
         default:
             return state

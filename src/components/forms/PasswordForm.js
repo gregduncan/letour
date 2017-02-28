@@ -49,8 +49,8 @@ export default class PasswordForm extends Component {
                                 style={styles.input}
                                 onChangeText={(email) => this.setState({ email })}
                                 value={this.state.email}
-                                underlineColorAndroid='transparent'
-                                autoCapitalize='none'
+                                underlineColorAndroid="transparent"
+                                autoCapitalize="none"
                             />
                         </View>
                         <View style={styles.btnGroup}>

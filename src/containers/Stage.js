@@ -7,11 +7,10 @@ import StageDetail from "../components/stages/StageDetail"
 class Stage extends Component {
 
     render() {
-        
         const item = this.props.stages.filter((item) => item.stage === this.props.id)[0]
 
         return (
-           <StageDetail item={item} />
+            <StageDetail item={item} />
         )
     }
 }

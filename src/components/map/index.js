@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { StyleSheet, View, Image, Dimensions } from "react-native"
 
-const { width, height } = Dimensions.get("window")
+const { width } = Dimensions.get("window")
 
 export default class Map extends Component {
 
@@ -17,7 +17,7 @@ export default class Map extends Component {
 const styles = StyleSheet.create({
 
     map: {
-        height:350,
-        width:width
+        height: 350,
+        width: width
     }
 })

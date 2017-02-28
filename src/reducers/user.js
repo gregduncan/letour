@@ -2,7 +2,7 @@ import { LOGIN_USER, LOGOUT_USER } from "../constants/ActionTypes"
 
 const initialState = {
     user: {
-        auth: true,
+        auth: false,
         username: "",
         password: null,
     },

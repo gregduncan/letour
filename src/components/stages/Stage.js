@@ -1,10 +1,8 @@
-import React, { Component } from "react"
+import React, { Component, PropTypes } from "react"
 import { View, Text, StyleSheet, TouchableOpacity, Dimensions } from "react-native"
 import { Actions } from "react-native-router-flux"
 import changeCase from "change-case"
 import Icon from "react-native-vector-icons/FontAwesome"
-
-const { width, height } = Dimensions.get("window")
 
 export default class Stage extends Component {
 
@@ -25,6 +23,10 @@ export default class Stage extends Component {
     }
 }
 
+Stage.propTypes = {
+    item: PropTypes.object.isRequired
+}
+
 const styles = StyleSheet.create({
     widget: {
         marginBottom: 0,
@@ -35,8 +37,8 @@ const styles = StyleSheet.create({
         borderColor: '#ddd',
         borderBottomWidth: 1,
         borderStyle: 'solid',
-        marginTop:10,
-        paddingBottom:10
+        marginTop: 10,
+        paddingBottom: 10
     },
     containerTop: {
         marginHorizontal: 10

@@ -6,7 +6,6 @@ import { connect } from "react-redux"
 import LoginForm from "../components/forms/LoginForm"
 import { login } from "../actions/user"
 
-
 class Login extends Component {
 
     handleLogin(username, password) {
@@ -15,12 +14,11 @@ class Login extends Component {
 
     render() {
         return (
-            <LoginForm onPress={this.handleLogin.bind(this)} fetching={this.props.fetching} />
+            <LoginForm onPress={this.handleLogin.bind(this)} />
         )
     }
 }
 
 export default connect(store => ({
-    user: store.user.user,
-    fetching: store.user.fetching
+    user: store.user.user
 }))(Login)

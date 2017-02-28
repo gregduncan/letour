@@ -13,7 +13,7 @@ class Settings extends Component {
 
     render() {
         return (
-           <SettingsForm logout={this.handleLogout.bind(this)} />
+            <SettingsForm logout={this.handleLogout.bind(this)} />
         )
     }
 }
