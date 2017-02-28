@@ -15,7 +15,6 @@ export default class Map extends Component {
 }
 
 const styles = StyleSheet.create({
-
     map: {
         height: 350,
         width: width
